@@ -4,7 +4,10 @@ const ModuleFederationPlugin = require("webpack/lib/container/ModuleFederationPl
 const deps = require("./package.json").dependencies;
 module.exports = {
   output: {
-    publicPath: "http://localhost:3001/",
+    publicPath:
+      argv.mode === "developpement"
+        ? "http://localhost:3000/"
+        : "https://remote-app-wp-test.vercel.app/",
   },
 
   resolve: {
