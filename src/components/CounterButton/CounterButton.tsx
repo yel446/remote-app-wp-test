@@ -9,7 +9,7 @@ const CounterButton: React.FC = () => {
       {" "}
       Je ne suis qu'un texte {count} <br />
       <b>Je m'appelle counter</b>
-    </p>
+    <>
   );
 };
 
