@@ -8,8 +8,8 @@ const CounterButton: React.FC = () => {
     <p className="c-counter" onClick={() => setCount((count) => count + 1)}>
       {" "}
       Je ne suis qu'un texte {count} <br />
-      <b>Je m'appelle counter</b>
-    <>
+      <b>Je m'appelle counter - fixed</b>
+    </p>
   );
 };
 
