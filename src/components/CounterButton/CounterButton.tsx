@@ -7,7 +7,8 @@ const CounterButton: React.FC = () => {
   return (
     <p className="c-counter" onClick={() => setCount((count) => count + 1)}>
       {" "}
-      Hey!! Testo 🫣 {count}{" "}
+      Je ne suis qu'un texte {count} <br />
+      <b>Je m'appelle counter</b>
     </p>
   );
 };
